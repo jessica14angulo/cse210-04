@@ -25,5 +25,5 @@ class Score(Actor):
         Args:
             points: The user points.
         """
-        self._points += self._points
+        self._points += points
         self.set_text(f"Score: {self._points}")
