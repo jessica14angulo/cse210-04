@@ -12,7 +12,7 @@ class Rock(Actor):
 
     def __init__(self):
         super().__init__()
-        self.__point = -1
+        self.__rockpoint = -1
 
     def get_point_value(self):
         """
@@ -21,13 +21,13 @@ class Rock(Actor):
             point (integer): -1
         """
 
-        return self.__point
+        return self.__rockpoint
 
-    def set_point_value(self, point):
+    def set_point_value(self, rockpoint):
         """
         Updates the colloid value to a given one.
         Args:
             point (integer): The given colloid value.
         """
 
-        self.__point = point
+        self.__rockpoint = rockpoint

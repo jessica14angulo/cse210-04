@@ -12,7 +12,7 @@ class Gem(Actor):
 
     def __init__(self):
         super().__init__()
-        self.__point = 1
+        self.__gempoint = 1
 
     def get_point_value(self):
         """
@@ -21,13 +21,13 @@ class Gem(Actor):
             point (integer): 1
         """
 
-        return self.__point
+        return self.__gempoint
 
-    def set_point_value(self, point):
+    def set_point_value(self, gempoint):
         """
         Updates the colloid value to a given one.
         Args:
             point (integer): The given colloid value.
         """
 
-        self.__point = point
+        self.__point = gempoint
