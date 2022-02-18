@@ -6,15 +6,15 @@ hello
 this is aaron
 
 Actors
-    rock class
-    gem class
-    player
+    rock class - similar to Artifacts
+    gem class - similar to Artifacts
+    player - ?
     Scoreboard
 
 Director
 
 cast
 
-KeyboardService
+KeyboardService - same as Player
 
 VideoService
