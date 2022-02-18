@@ -1,20 +1,27 @@
 # cse210-04
 
-testing pushes -oscar
-hello
+IMPORTANT:
+    Need help figuring out why one of each gem and rock moves with player icon, why score board doesn't stay updated, and also need polishing to complete gameplay (debugging).
 
-this is aaron
+Classes are marked with a *.
 
-Actors
-    rock class - similar to Artifacts
-    gem class - similar to Artifacts
-    player - ?
-    Scoreboard
+Data:
+    score.txt - just has a file with rock and gem points values
 
-Director
+Directing:
+    *Director
 
-cast
+Casting:
+    *cast
+    *Actors - Parent
+        *rock class - similar to Artifacts in example assignment - Child of Actor
+        *gem class - similar to Artifacts in example assignment - Child of Actor
+        Score - set in Main
 
-KeyboardService - same as Player
+Services:
+    *KeyboardService - same as a Player
+    *VideoService
 
-VideoService
+Shared:
+    *Color
+    *Point
