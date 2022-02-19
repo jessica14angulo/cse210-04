@@ -28,7 +28,7 @@ CAPTION = "Greed"
 DATA_PATH = os.path.dirname(os.path.abspath(__file__)) + "/data/score.txt"
 WHITE = Color(255, 255, 255)
 DEFAULT_ARTIFACTS = 25
-SCOREBOARD = 0
+scoreboard = 0
 
 def main():
     
@@ -106,7 +106,7 @@ def main():
     keyboard_service = KeyboardService(CELL_SIZE)
     video_service = VideoService(CAPTION, MAX_X, MAX_Y, CELL_SIZE, FRAME_RATE)
     director = Director(keyboard_service, video_service)
-    director.start_game(cast, SCOREBOARD)
+    director.start_game(cast, scoreboard)
 
 
 if __name__ == "__main__":

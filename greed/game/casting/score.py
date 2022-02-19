@@ -2,7 +2,7 @@ from game.casting.actor import Actor
 
 class Score(Actor):
     """
-    The responsibility of an Score is to update and display the user's score.
+    The responsibility of a Score is to update and display the user's score.
 
     Attributes:
         _points: The current user points.
