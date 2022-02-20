@@ -30,11 +30,12 @@ WHITE = Color(255, 255, 255)
 DEFAULT_ARTIFACTS = 25
 scoreboard = 0
 
+
 def main():
-    
+
     # create the cast
     cast = Cast()
-    
+
     # create the scoreboard banner
     score = Actor()
     score.set_text("")
@@ -42,7 +43,7 @@ def main():
     score.set_color(WHITE)
     score.set_position(Point(CELL_SIZE, 0))
     cast.add_actor("scores", score)
-    
+
     # create the robot
     x = int(MAX_X / 2)  # Start in the middle at the bottom of the window ~AB
     y = int(MAX_Y - FONT_SIZE)  # Set the robot to the bottom of the window ~AB
@@ -54,7 +55,7 @@ def main():
     robot.set_color(WHITE)
     robot.set_position(position)
     cast.add_actor("robots", robot)
-    
+
     # create the rocks and gems
     with open(DATA_PATH) as file:
         data = file.read()
@@ -75,7 +76,7 @@ def main():
         g = random.randint(0, 255)
         b = random.randint(0, 255)
         color = Color(r, g, b)
-        
+
         rock = Rock()
         rock.set_text(rock_text)
         rock.set_font_size(FONT_SIZE)
@@ -101,7 +102,7 @@ def main():
         gem.set_position(position)
         gem.set_point_value(gem_point)
         cast.add_actor("gems", gem)
-    
+
     # start the game
     keyboard_service = KeyboardService(CELL_SIZE)
     video_service = VideoService(CAPTION, MAX_X, MAX_Y, CELL_SIZE, FRAME_RATE)
