@@ -52,7 +52,7 @@ root                    (project root folder)
 
 ## Team
 ---
-- Group name: team-01
+ Group name: team-01
 - Aaron Bechtel
 - Jared Malan
 - Jessica Angulo
