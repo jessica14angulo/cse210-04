@@ -2,7 +2,7 @@
 Precious gems are falling out of the sky! Unfortunately, so are huge rocks. Your goal is to collect as many gems (*) as you can while avoiding the rocks (o). Collecting gems will earn you fifty points, and running into rocks will make you lose fifty points too. How many points can you earn?
 
 ## Getting Started
----
+
 Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
 ```
 python3 -m pip install raylib
@@ -15,7 +15,7 @@ You can also run the program from an IDE like Visual Studio Code. Start your IDE
 project folder. Select the main module inside the cse210-04 folder and click the "run" icon.
 
 ## Project Structure
----
+
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
@@ -30,12 +30,12 @@ root                    (project root folder)
 ```
 
 ## Required Technologies
----
+
 * Python 3.8.0
 * Raylib Python CFFI 3.7
 
 ## Rules
----
+
 - Gems (*) and rocks (o) randomly appear and fall from the top of the screen.
 - The player (#) can move left or right along the bottom of the screen.
 - If the player touches a gem they earn 50 points.
@@ -44,14 +44,14 @@ root                    (project root folder)
 - The game continues until the player closes the window.
 
 ## Requirements
----
+
 - The program must have a README file.
 - The program must have at least eight classes.
 - Each module, class and method must have a corresponding comment.
 - The game must remain generally true to the order of play described earlier.
 
 ## Team
----
+
  Group name: team-01
 - Aaron Bechtel
 - Jared Malan
