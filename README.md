@@ -36,19 +36,19 @@ root                    (project root folder)
 
 ## Rules
 
-- Gems (*) and rocks (o) randomly appear and fall from the top of the screen.
-- The player (#) can move left or right along the bottom of the screen.
-- If the player touches a gem they earn 50 points.
-- If the player touches a rock they lose 50 points.
-- Gems and rocks are removed when the player touches them.
-- The game continues until the player closes the window.
+- Players can move up, down, left and right:
+- Player one moves using the W, S, A and D keys.
+- Player two moves using the I, K, J and L keys.
+- Each player's trail grows as they move.
+- Players try to maneuver so the opponent collides with their trail.
+- If a player collides with their opponent's trail...THE GAME IS OVER!
 
 ## Requirements
 
 - The program must have a README file.
-- The program must have at least eight classes.
+- The program must have at least 16 classes.
 - Each module, class and method must have a corresponding comment.
-- The game must remain generally true to the order of play described earlier.
+- The game must remain generally true to the order of play described in the overview.
 
 ## Team
 
